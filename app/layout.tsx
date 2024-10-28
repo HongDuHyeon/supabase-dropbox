@@ -36,7 +36,11 @@ export default function RootLayout({
             crossOrigin="anonymous"
             referrerPolicy="no-referrer"
           />
-          <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>{children}</body>
+          <body
+            className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+          >
+            {children}
+          </body>
         </html>
       </ThemeProvider>
     </ReactQueryClientProvider>

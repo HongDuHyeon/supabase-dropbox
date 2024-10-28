@@ -18,7 +18,7 @@ export default function UI() {
       {/* File Drop Drag */}
       <DropSection />
       {/* Image */}
-      <ImageList />
+      <ImageList searchInput={searchInput} />
     </main>
   );
 }
